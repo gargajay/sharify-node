@@ -1,0 +1,37 @@
+{
+    "app": {
+      "name": "sharify"
+    },
+    "db": {
+      "name": "sharify",
+      "host": "127.0.0.1",
+      "auth": false,
+      "username": "",
+      "password": "",
+      "port": 27017,
+      "mongoose": {
+        "useNewUrlParser": true,
+        "autoIndex": true, // Don't build indexes
+        "poolSize": 10, // Maintain up to 10 socket connections
+        // If not connected, return errors immediately rather than waiting for reconnect
+        "bufferMaxEntries": 0
+      },
+      "db_url": "mongodb://localhost:27017/sharify"
+      
+    },
+    "appConstants": {
+        "WEB_URL": "http://localhost:3000/",
+        "StaticFiles": "../emailTemplates/",
+        "SERVER_URL": "http://sharify.yapits.com/",
+        "port":"5000",
+        "SECERT_KEY":"kkeekw43m2323l32323"
+        
+      },
+      "smtp":{
+        "smtpServer": "smtp.gmail.com",
+        "smtpPort": 587,
+        "smtpUser": "primeclip629@gmail.com",
+        "smtpPass": "25298337"
+      }
+  }
+  

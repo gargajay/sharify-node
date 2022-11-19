@@ -1,0 +1,14 @@
+Users campaign media. The media for stories should be containers with an aspect ratio of 9:16 and no border. For media which doesn’t fit the the aspect ratio we should zoom in or out till it fills the 9:16 media container. The media for feed should be containers with an aspect ratio of 4:7 and no border. For media which doesn’t fit the the aspect ratio we should zoom in or out till it fills the 4:7 media container
+
+2.Overview/Payouts not styled correctly. The tabs ‘Payment Overview’ and ‘Payouts’ should be styled like ‘Stats’ and ‘Activity’ on the dashboard. https://slack-files.com/T016F4E0456-F01HNEF6EHG-9a9b85494a https://slack-files.com/T016F4E0456-F01JC9T7VEU-276e329ce9
+
+3.The background is jumping back to the top when the user scrolled down and is downloading media. https://slack-files.com/T016F4E0456-F01HUJH95GU-5f6aec599a
+
+4.admin panel upload media image and video height and with same for all media.
+
+5. On mobile on the campaign screen the two tabs ‘Campaigns’ and ‘Archived’ should be placed side by side instead of one under the other.
+
+6. On mobile the media in the media screen seems to be stretched. https://slack-files.com/T016F4E0456-F01HFL94TV4-1eb470116c
+
+7. On mobile when the nav closes the chart doesn’t resize and stays on half size. https://slack-files.com/T016F4E0456-F01H7LDAJ2K-f0b60d644f
+
